@@ -1,20 +1,28 @@
 # Binnary-Classification-GF
-False rejects classificator
+## False rejects classificator
 
-1.	Intro
-This is an attempt to reduce false rejects at GF station. Currently the station works as a ìblack boxî so there is no access to the internal program.
-Outputs available:
-ï	OK/NG judgement
-ï	Screenshot of the test performed
+### Intro 
 
-With only those outputs the aim is to be able to detect false positives in the execution of the test. The idea is that only the NG judgement cycles will use the classifier. 
+This is an attempt to reduce false rejects at GF station. Currently the station works as a ‚Äúblack box‚Äù so there is no access to the internal program. 
 
-2.	Model
-The model is a CNN adapted from several entries in the Dogs vs Cats challenge at Kaggle. For more details of the model see model.summary() in ìGF Classifier v0.ipynbî
+Outputs available: 
 
-3.	Execution
-After training the implementation was adapted into a MathLab routine and then into LabVIEW. Both software currently run on the GF station. 
+* OK/NG judgement 
+* Screenshot of the test performed
 
-4.	Results
-More data is required to have a definitive result. 
+With only those outputs the aim is to be able to detect false positives in the execution of the test. The idea is that only the NG judgement cycles will use the classifier.
+
+### Model 
+
+The model is a CNN ~~I smashed together against its will~~ adapted from several entries in the Dogs vs Cats challenge at Kaggle. 
+
+For more details about the model and its layers see model.summary() in ‚ÄúGF Classifier v0.ipynb‚Äù
+
+### Execution 
+
+After training the implementation was adapted into a MathLab routine and then into LabVIEW. Both software currently run on the GF station.
+
+### Results 
+
+More data is required to have a definitive result.
 
